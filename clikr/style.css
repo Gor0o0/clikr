@@ -1,0 +1,45 @@
+/* -=-=-=|Стили базы|=-=-=- */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(27, 30, 46);
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+}
+
+header{
+    background-color: rgb(30, 52, 66);
+    text-align: center;
+    margin: 20px;
+    padding: 15px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-radius: 12px;
+    
+}
+
+main{
+    background-color: rgb(30, 52, 66);
+    text-align: center;
+    margin: 20px;
+    padding: 15px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-radius: 12px;
+    min-height: 50vh;
+}
+
+footer{
+    background-color: rgb(30, 52, 66);
+    text-align: center;
+    margin: 20px;
+    padding: 15px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-radius: 12px;
+}

@@ -1,0 +1,88 @@
+/* -=-=-=|Стили всякого хлама|=-=-=- */
+h1 {
+    color: rgb(42, 43, 43);
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+h1 i {
+    color: rgb(247, 252, 0);
+    margin-right: 20px;
+    
+}
+
+.score-conteiner {
+    display: inline;
+}
+
+.score i {
+    color: wheat;
+    font-size: 1.5rem;
+    margin-right: 20px;
+}
+
+.score {
+    color: wheat;
+    font-size: 1.5rem;
+    margin-right: 20px;
+}
+
+.main-image-conteiner {
+    text-align: center;
+    position: relative;
+}
+.inner {
+    max-width: 100px;
+    max-height: 100px;
+    position: absolute;
+}
+#main-image{
+    width: 300px;
+    max-width: 300px;
+    height: auto;
+    z-index: 10;
+}
+
+#main-image:hover {
+    transform: scale(1.1);
+}
+
+#click-button {
+    background: linear-gradient(wheat, white, rgb(89, 143, 150));
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 250px;
+    height: 80px;
+    align-items: center;
+    border: none;
+    transform: 1s;
+}
+
+#click-button:hover {
+    transform: scale(0.9);
+    transform: 1s;
+}
+
+#click-button:active {
+    transform: translateY(1px);
+} ::after{
+    transform: translateY(-20px);
+}
+
+.progress-conteiner {
+    color: wheat;
+    background-color: rgb(24, 24, 24);
+    border-radius: 8px;
+}
+
+.progress-bar {
+    margin: 30px 0px 0px 0px ;
+    height: 20px;
+    margin-bottom: 25px;
+}
+
+.back-image{
+    z-index: 10;
+    position: absolute;
+}
